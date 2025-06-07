@@ -121,7 +121,7 @@ const HomePage = ({ sampleApiData, sampleKural, activeTab, setActiveTab, renderC
             </h3>
             <div className="flex items-center">
               <code className="text-green-400 bg-gray-900/50 px-3 py-2 rounded text-sm flex-1">
-                GET /api/v1/
+                GET /api/v1/thirukural
               </code>
               <CopyButton textToCopy="https://thirukural-api-spring-1.onrender.com/api/v1/" />
             </div>
@@ -135,7 +135,7 @@ const HomePage = ({ sampleApiData, sampleKural, activeTab, setActiveTab, renderC
             </h3>
             <div className="flex items-center">
               <code className="text-green-400 bg-gray-900/50 px-3 py-2 rounded text-sm flex-1">
-                GET /api/v1/{'{kuralNumber}'}
+                GET /api/v1/thirukural/{'{kuralNumber}'}
               </code>
               <CopyButton textToCopy="https://thirukural-api-spring-1.onrender.com/api/v1/1" />
             </div>
