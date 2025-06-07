@@ -38,7 +38,7 @@ const HomePage = ({ sampleApiData, sampleKural, activeTab, setActiveTab, renderC
     <div className="text-center space-y-8">
       <div className="flex flex-col items-center space-y-6">
         <img 
-          src=".\src\assets\tiruvalluvar.webp" 
+          src="../assets/tiruvalluvar.webp" 
           alt="Thiruvalluvar" 
           className="w-[50%] h-[50%] md:w-50 md:h-50 rounded-full object-cover border-4 border-gradient-to-r from-blue-400 to-purple-400 shadow-2xl"
         />
