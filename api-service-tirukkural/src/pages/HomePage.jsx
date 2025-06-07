@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-
+import BH from '../assets/tiruvalluvar.webp'
 // Mock Button component
 const Button = ({ children, className, onClick, ...props }) => (
   <button className={className} onClick={onClick} {...props}>
@@ -38,7 +38,7 @@ const HomePage = ({ sampleApiData, sampleKural, activeTab, setActiveTab, renderC
     <div className="text-center space-y-8">
       <div className="flex flex-col items-center space-y-6">
         <img 
-          src="../assets/tiruvalluvar.webp" 
+          src={BH} 
           alt="Thiruvalluvar" 
           className="w-[50%] h-[50%] md:w-50 md:h-50 rounded-full object-cover border-4 border-gradient-to-r from-blue-400 to-purple-400 shadow-2xl"
         />
