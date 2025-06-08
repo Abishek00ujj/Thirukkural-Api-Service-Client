@@ -124,7 +124,7 @@ const HomePage = ({ sampleApiData, sampleKural, activeTab, setActiveTab, renderC
               <code className="text-green-400 bg-gray-900/50 px-3 py-2 rounded text-sm flex-1 overflow-auto">
                 GET /api/v1/thirukural
               </code>
-              <CopyButton textToCopy="https://thirukural-api-spring-1.onrender.com/api/v1/" />
+              <CopyButton textToCopy="https://thirukural-api-spring-1.onrender.com/api/v1/thirukural" />
             </div>
             <p className="text-gray-400 text-sm mt-2">Fetch all 1330 Thirukural verses</p>
           </div>
@@ -139,7 +139,7 @@ const HomePage = ({ sampleApiData, sampleKural, activeTab, setActiveTab, renderC
               <code className="text-green-400 bg-gray-900/50 px-3 py-2 rounded text-sm flex-1 overflow-auto">
                 GET /api/v1/thirukural/{'{kuralNumber}'}
               </code>
-              <CopyButton textToCopy="https://thirukural-api-spring-1.onrender.com/api/v1/1" />
+              <CopyButton textToCopy="https://thirukural-api-spring-1.onrender.com/api/v1/thirukural/1" />
             </div>
             <p className="text-gray-400 text-sm mt-2">Fetch a specific kural (1-1330)</p>
           </div>
